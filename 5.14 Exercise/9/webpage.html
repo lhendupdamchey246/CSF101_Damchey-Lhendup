@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Tailwind Page</title>
+  <!-- TailwindCSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen bg-gray-100 text-gray-800">
+  
+  <!-- Header -->
+  <header class="bg-blue-600 text-white text-center py-6 shadow-lg">
+    <h1 class="text-3xl font-bold sm:text-4xl md:text-5xl transition-transform duration-500 hover:scale-105">
+      Tailwind Responsive Page
+    </h1>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-1 flex flex-col items-center justify-center text-center p-6 space-y-6">
+    <h2 class="text-xl sm:text-2xl md:text-3xl font-semibold">
+      Explore a Simple Micro Interaction ✨
+    </h2>
+    <p class="max-w-lg text-gray-600 text-base sm:text-lg md:text-xl">
+      This webpage uses <strong>TailwindCSS</strong> for styling and responsiveness.
+      Resize your browser to see layout changes in action.
+    </p>
+
+    <!-- Micro Interaction Button -->
+    <button
+      class="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-semibold 
+             shadow-md transition-all duration-300 transform hover:bg-blue-700 hover:scale-110 active:scale-95">
+      Hover Me 🚀
+    </button>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-300 text-center py-4 text-sm sm:text-base">
+    © 2025 Responsive Tailwind Page. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
